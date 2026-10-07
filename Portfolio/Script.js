@@ -16,82 +16,108 @@ const PORTFOLIO_DATA = {
       iconTags: 'React · Node.js · OpenAI'
     },
     {
-      id: 'it-recruitment',
+      id: 'StockPilot-AI',
       number: '02',
+      title: 'StockPilot AI - AI-powered Restaurant Inventory Management System',
+      description: 'An AI-powered inventory system that lets staff update stock through simple WhatsApp or Telegram messages. The AI understands stock-in, stock-out, and wastage, automatically records updates in Airtable, and sends low-stock alerts in real time. Built with n8n, it reduces manual work, food wastage, and operational costs while giving owners live inventory visibility across single or multiple outlets.',
+      category: 'AI & Automation',
+      stack: ['n8n', 'gmail', 'JavaScript', 'Airtable', 'OpenAI', 'JSON', 'Pathways', 'APIs'],
+      liveUrl: null,
+      demoAvailable: false,
+      iconType: 'AI-Agent',
+      iconSub: 'Autonomous Flow',
+      iconTags: 'n8n · Slack · Airtable · OpenAI · APIs · JavaScript'
+    },
+    {
+      id: 'it-recruitment',
+      number: '03',
       title: 'Intelligent IT Recruitment System',
       description: 'Our Intelligent IT Recruitment Agent automatically screens resumes, matches top talent, schedules interviews, and accelerates hiring with AI-powered precision.',
       category: 'AI & Automation',
       stack: ['n8n', 'gmail', 'AI Agent', 'Airtable', 'Slack'],
       liveUrl: null,
       demoAvailable: false,
-      iconType: 'sparkles',
+      iconType: 'AI-Agent',
       iconSub: 'Autonomous Flow',
       iconTags: 'n8n · Slack · Airtable'
     },
     {
-      id: 'twit-chat',
-      number: '03',
-      title: 'Twit Chat App',
-      description: 'A Real-time Chat Application that enables seamless communication between users across multiple platforms.',
-      category: 'Full-Stack',
-      stack: ['Node.js', 'Express', 'Socket.io', 'ejs', 'API', 'JavaScript', 'HTML5', 'CSS3'],
-      liveUrl: 'https://twit-chat-app-j9t1.onrender.com',
-      demoAvailable: true,
-      iconType: 'globe',
-      iconSub: 'WebSocket Stream',
-      iconTags: 'Socket.io · Express'
-    },
-    {
-      id: 'animated-gateway',
+      id: 'MainCraft - AI',
       number: '04',
-      title: 'Animated Gateway',
-      description: 'A visually appealing animated login page featuring smooth transitions, interactive elements, and modern UI design.',
-      category: 'Frontend & UI',
-      stack: ['Authentication', 'Bcrypt', 'HTML5', 'CSS3'],
-      liveUrl: 'https://LoginA24.netlify.app',
-      demoAvailable: true,
-      iconType: 'code',
-      iconSub: 'Client Interface',
-      iconTags: 'Modern Architecture'
-    },
-    {
-      id: 'note-master',
-      number: '05',
-      title: 'Note Master',
-      description: 'A lightweight notepad feature that allows users to create, rename, and store .txt files without a database.',
-      category: 'Backend & Systems',
-      stack: ['Node.js', 'Express', 'Redis'],
-      liveUrl: 'https://swift-pad.onrender.com',
-      demoAvailable: true,
-      iconType: 'terminal',
-      iconSub: 'Memory Cache',
-      iconTags: 'Node · Redis Store'
-    },
-    {
-      id: 'ai-feedback',
-      number: '06',
-      title: 'AI Feedback Agent',
-      description: 'Our AI Feedback Agent analyzes customer feedback, identifies sentiment, categorizes requests, and instantly routes them to the right team.',
+      title: 'MailCraft AI - Email AI Agent System',
+      description: 'An AI-powered email assistant that validates requests, understands the target job role, and instantly creates personalized, human-written job emails. Fully automated with n8n, it works 24/7 without an app or login, saving time while securely handling multiple requests at scale.',
       category: 'AI & Automation',
-      stack: ['AI Agent', 'Airtable', 'Slack', 'gmail'],
-      liveUrl: null,
-      demoAvailable: false,
-      iconType: 'sparkles',
-      iconSub: 'Autonomous Flow',
-      iconTags: 'n8n · Slack · Airtable'
+    stack: ['n8n', 'gmail', 'AI Agent', 'Airtable', 'Slack'],
+    liveUrl: null,
+    demoAvailable: false,
+    iconType: 'AI-Agent',
+    iconSub: 'AI Intelligence',
+iconTags: 'AI · Email Validation · APIs'
     },
-    {
-      id: 'currency-converter',
-      number: '07',
-      title: 'Currancy Converter',
-      description: 'A currency converter instantly converts an entered amount from one currency to another using real-time exchange rates.',
-      category: 'Frontend & UI',
-      stack: ['API', 'JavaScript', 'Real-time Rates', 'CSS3', 'HTML5'],
-      liveUrl: 'https://currency-converter24.vercel.app',
-      demoAvailable: true,
-      iconType: 'code',
-      iconSub: 'Client Interface',
-      iconTags: 'Modern Architecture'
+  {
+    id: 'twit-chat',
+    number: '05',
+    title: 'Twit Chat App',
+    description: 'A Real-time Chat Application that enables seamless communication between users across multiple platforms.',
+    category: 'Full-Stack',
+    stack: ['Node.js', 'Express', 'Socket.io', 'ejs', 'API', 'JavaScript', 'HTML5', 'CSS3'],
+    liveUrl: 'https://twit-chat-app-j9t1.onrender.com',
+    demoAvailable: true,
+    iconType: 'globe',
+    iconSub: 'WebSocket Stream',
+    iconTags: 'Socket.io · Express'
+    },
+  {
+    id: 'animated-gateway',
+    number: '06',
+    title: 'Animated Gateway',
+    description: 'A visually appealing animated login page featuring smooth transitions, interactive elements, and modern UI design.',
+    category: 'Frontend & UI',
+    stack: ['Authentication', 'Bcrypt', 'HTML5', 'CSS3'],
+    liveUrl: 'https://LoginA24.netlify.app',
+    demoAvailable: true,
+    iconType: 'code',
+    iconSub: 'Client Interface',
+    iconTags: 'Modern Architecture'
+    },
+  {
+    id: 'note-master',
+    number: '07',
+    title: 'Note Master',
+    description: 'A lightweight notepad feature that allows users to create, rename, and store .txt files without a database.',
+    category: 'Backend & Systems',
+    stack: ['Node.js', 'Express', 'Redis'],
+    liveUrl: 'https://swift-pad.onrender.com',
+    demoAvailable: true,
+    iconType: 'terminal',
+    iconSub: 'Memory Cache',
+    iconTags: 'Node · Redis Store'
+    },
+  {
+    id: 'ai-feedback',
+    number: '08',
+    title: 'AI Feedback Agent',
+    description: 'Our AI Feedback Agent analyzes customer feedback, identifies sentiment, categorizes requests, and instantly routes them to the right team.',
+    category: 'AI & Automation',
+    stack: ['AI Agent', 'Airtable', 'Slack', 'gmail'],
+    liveUrl: null,
+    demoAvailable: false,
+    iconType: 'AI-Agent',
+    iconSub: 'Autonomous Flow',
+    iconTags: 'n8n · Slack · Airtable'
+    },
+  {
+    id: 'currency-converter',
+    number: '09',
+    title: 'Currancy Converter',
+    description: 'A currency converter instantly converts an entered amount from one currency to another using real-time exchange rates.',
+    category: 'Frontend & UI',
+    stack: ['API', 'JavaScript', 'Real-time Rates', 'CSS3', 'HTML5'],
+    liveUrl: 'https://currency-converter24.vercel.app',
+    demoAvailable: true,
+    iconType: 'code',
+    iconSub: 'Client Interface',
+    iconTags: 'Modern Architecture'
     }
   ],
   services: [
@@ -238,8 +264,8 @@ function renderCategoryTabs() {
 }
 
 function getProjectGraphicIcon(type) {
-  if (type === 'sparkles') {
-    return `<svg class="w-8 h-8 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>`;
+  if (type === 'AI-Agent') {
+    return `<svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.7"><rect x="4" y="6" width="16" height="13" rx="3"/><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/><path d="M9 16h6M12 6V3M8 6 6 4M16 6l2-2"/></svg>`;
   } else if (type === 'globe') {
     return `<svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>`;
   } else if (type === 'terminal') {
