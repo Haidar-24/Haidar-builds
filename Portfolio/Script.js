@@ -96,7 +96,7 @@ iconTags: 'AI · Email Validation · APIs'
   {
     id: 'ai-feedback',
     number: '08',
-    title: 'AI Feedback Agent',
+    title: 'DineVoice AI - AI-powered restaurant feedback agent',
     description: 'Our AI Feedback Agent analyzes customer feedback, identifies sentiment, categorizes requests, and instantly routes them to the right team.',
     category: 'AI & Automation',
     stack: ['AI Agent', 'Airtable', 'Slack', 'gmail'],
