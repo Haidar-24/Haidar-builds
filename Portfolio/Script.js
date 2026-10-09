@@ -172,7 +172,7 @@ iconTags: 'AI · Email Validation · APIs'
     { name: 'React JS', category: 'Frontend & UI', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
     { name: 'HTML', category: 'Frontend & UI', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
     { name: 'CSS', category: 'Frontend & UI', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-    { name: 'Open AI', category: 'AI & Automation', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg' },
+    { name: 'Open AI', category: 'AI & Machine Learning', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg' },
     { name: 'n8n', category: 'AI & Automation', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/n8n.svg' },
     { name: 'Socket.IO', category: 'Backend & DB', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg' },
     { name: 'Python', category: 'Languages', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
@@ -182,12 +182,23 @@ iconTags: 'AI · Email Validation · APIs'
     { name: 'Django', category: 'Backend & DB', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg' },
     { name: 'VS Code', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' },
     { name: 'GitHub', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
-    { name: 'NumPy', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg' },
-    { name: 'Pandas', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg' },
-    { name: 'Matplotlib', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg' },
+    { name: 'NumPy', category: 'AI & Machine Learning', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg' },
+    { name: 'Pandas', category: 'AI & Machine Learning', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg' },
+    { name: 'Matplotlib', category: 'AI & Machine Learning', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg' },
     { name: 'Slack', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg' },
     { name: 'Air Table', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/airtable.svg' },
-    { name: 'Power BI', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/powerbi.svg' }
+    { name: 'Power BI', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/powerbi.svg' },
+    { name: 'LLM', category: 'AI & Machine Learning', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg' },
+    { name: 'NLP', category: 'AI & Machine Learning', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlenaturallanguage.svg' },
+    { name: 'RAG', category: 'AI & Machine Learning', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/langchain.svg' },
+    { name: 'Claude', category: 'AI & Machine Learning', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/claude.svg' },
+    { name: 'Bcrypt', category: 'Security & Authentication', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bcrypt.svg' },
+    { name: 'Auth', category: 'Security & Authentication', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/auth0.svg' },
+    { name: 'REST APIs', category: 'Backend & DB', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/fastapi.svg' },
+    { name: 'GitHub', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg' },
+    { name: 'Postman', category: 'Data & Tools', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/postman.svg' },
+    { name: 'Vercel', category: 'Deployment & Hosting', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vercel.svg' },
+    { name: 'Render', category: 'Deployment & Hosting', iconUrl: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/render.svg' }
   ]
 };
 
@@ -461,8 +472,7 @@ document.getElementById('services-grid').innerHTML = PORTFOLIO_DATA.services.map
 
 // 5. Skills Render & Filter
 let selectedSkillCategory = 'All';
-const skillCategories = ['All', 'Backend & DB', 'AI & Automation', 'Frontend & UI', 'Languages', 'Data & Tools'];
-
+const skillCategories = ['All', 'Backend & DB', 'AI & Automation', 'Frontend & UI', 'Languages', 'Data & Tools','Security & Authentication', 'Deployment & Hosting', 'AI & Machine Learning'];
 function renderSkillCategoryTabs() {
   const container = document.getElementById('skills-category-tabs');
   container.innerHTML = skillCategories.map(cat => {
